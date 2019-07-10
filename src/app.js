@@ -8,8 +8,9 @@ import './database';
 class App {
   constructor() {
     this.server = express();
-    this.route();
     this.middleware();
+    this.route();
+
   }
 
   middleware() {
